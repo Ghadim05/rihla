@@ -31,7 +31,7 @@ function QuestionPage({
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/explore",
+        "https://rihla-zfjy.onrender.com/explore",
         {
           method: "POST",
           headers: {
